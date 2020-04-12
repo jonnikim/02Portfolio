@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Contact</title>
+    <title>About</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
@@ -13,23 +13,13 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Your Name</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html"
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-0 ml-3 mb-3">
+      <div class="navbar" id="mynavbar">
+        <a class="navbar-brand btn-info text-light p-2" href="#">Your Name</a>
+
+        <ul class="navbar-nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html"
               >About <span class="sr-only">(current)</span></a
             >
           </li>
@@ -42,6 +32,32 @@
         </ul>
       </div>
     </nav>
+    <div class="container" style="top: 50px; bottom:50px;">
+      <div class="row">
+        <div class="col-md-12 col-lg-8 mt-4 card">
+          <form class="card-body">
+            <h1 class="row text-info">
+              About Me
+            </h1>
+            <hr class="row" />
+            <img
+              class="float-left p-2"
+              src="https://b.thumbs.redditmedia.com/IQl3ack1YyEXODpF6jkcG_2p2nGBnDgsSGj0AXhyI2s.png"
+              alt=""
+            />
+            <section class="pt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+              voluptatibus officia sapiente consequuntur, dolores saepe
+              molestias ratione doloremque laboriosam nulla natus qui, nam
+              veritatis! Perspiciatis, molestias numquam. Nulla, officiis est!
+            </section>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="bg-dark text-center card-footer text-light fixed-bottom p-4">
+      &copy; Copyright
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
