@@ -1,11 +1,36 @@
-# hw-responsive-portfolio
+# 02Portfolio
 
-This week's homework we had to create a webpage using only Boostrap CSS. The page had to be responsive with media queries, as well as have working links between each page.
+![Project license badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
-The Navbar and footer of the pages were relatively mirrored for each page.
+Basic Intro Project to developting a Portfolio using CSS/HTML
 
-The assignment had us play with a lot of positioning/flexbox/grid/floats to try and get our webpage to be responsive.
 
-## Credits
-https://getbootstrap.com/
-https://www.w3schools.com/bootstrap4/
+# Table of Contents
+  * [Deployed App](#Deployed-App)
+  * [Usage](#Usage)
+  * [Contributing](#Contributing)
+  * [Questions](#Questions)
+
+
+## Deployed App
+GitHub: [Portfolio](https://jonnikim.github.io/02Portfolio/)
+
+
+
+## Usage
+
+Notable Technologies Used:
+- HTML
+- CSS
+
+
+## Contributing
+[Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/code_of_conduct.md)
+
+
+## Questions  
+Have questions? Contact me at:
+##### Email: jonathan213kim@gmail.com
+##### Github: https://github.com/jonnikim
+##### Porftolio: https://dry-springs-76393.herokuapp.com/
+##### LinkedIn: https://www.linkedin.com/in/jonathan-h-kim/
